@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <meta name="author" content= "José Rodríguez Rico" />
+    <meta name="keywords" content="premiado, nombrado, James Gosling" />
+    <meta name="description" content="Página que explica los premios y nombramientos de James Gosling por sus aportaciones al mundo de la informática"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JAMES GOSLING</title>
+	<!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <h1>JAMES GOSLING: Danos tu Opinión</h1>
+    
+    <nav>
+        
+          <a title ="Inicio"  href="index.html">Inicio</a> 
+          <a title ="Premios" href="premios.html">Premios</a> 
+          <a title ="Libros"  href="libros.html">Libros</a> 
+        
+    </nav>
+
+    <p>Tras aprender un poco sobre el trabajo de James Gosling nos gustaría saber tu opinión:</p>
+
+    <form name="Opinión">
+
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text"><br>
+
+        <label for="apellido">Apellido:</label>
+        <input id="apellido" type="text"><br>
+
+        <label for="fecha">Fecha Nacimiento:</label>
+        <input id="fecha" type="date"><br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email"><br>
+
+        <fieldset>
+            <legend>¿Que lenguaje de programación usas habitualmente?</legend><br>
+                <input type="checkbox" value="Java">Java<br>
+                <input type="checkbox" value="Python">Python<br>
+                <input type="checkbox" value="C++">C++<br>
+        </fieldset>
+        
+        <fieldset>
+            <legend> Valora del 1 al 10 la importancia de James Gosling en la informática actual:</legend><br>
+                <label for="val">Valoración:</label>
+                <input id="val" type="number"><br>
+        </fieldset>
+        
+
+        <fieldset>
+            <legend>Cuál es tu opinión general del autor</legend><br>
+            <textarea cols="30" rows="6" ></textarea>
+        </fieldset>
+
+        <input type="button" value="Send the info!">
+        
+    </form>
+    
+   
+	<!-- la carpeta de recursos gráficos "images" debe estar en el misma carpeta del archivo -->
+<!-- anadir la sección footer dentro del body despues del párrafo -->
+	<footer>
+      <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
+      <img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+/*Especificidad: 001*/
+body {
+  font-family: "Andale Mono", monospace;
+  color: #818181;
+  background-color: #FFFAF0;
+  }
+/*Especificidad: 001*/
+h1 {
+  font-family: "Andale Mono", monospace;
+  font-size: 3em;
+  color: #FF5733;   
+  background-color:#FFFAF0; 
+  text-transform: uppercase;
+  text-align: start;  
+  border-style: solid; 
+  }
+
+h2 {
+  font-family: "Andale Mono", monospace;
+  color: #000;    
+  background-color:#FFE4C4; 
+  text-transform: uppercase;
+  text-align: start;     
+  border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
+ }
+
+ a:link{
+  color: #FF5733;
+  background-color:#FFFAF0; 
+}
+
+a:visited{
+  color: blue;
+  background-color:#FFFAF0; 
+}
+ 
+ p {
+  font-family: "Andale Mono", monospace;
+  color: #000;
+  background-color:#FFFAF0; 
+  text-align: start;  
+  line-height: 1.5; 
+  margin: 1.5%;
+ }
+
+ nav{
+   margin : 25px 50px 40px 25px;
+ }
+
+ caption{
+  font-family: "Andale Mono", monospace;
+  color: #000;
+  background-color: #FFFAF0;
+  font-size: 30px;
+  padding: 25px;
+  margin : 20px 0px 0px 0px;
+ }
+ tr,td,th{
+  font-family: "Andale Mono", monospace;
+  color: #000;
+  background-color:#FFE4C4; 
+
+ }
+
+ 
+
+ ul,li{
+  font-family: "Andale Mono", monospace;
+  color: #000;
+  background-color:#FFE4C4; 
+ 
+
+ }
+ img,video,audio{
+    display: block;
+    margin: auto;
+ }
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+

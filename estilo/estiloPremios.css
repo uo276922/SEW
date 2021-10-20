@@ -1,0 +1,36 @@
+
+ /*Especificidad: 001*/
+body {
+    display: grid;
+    grid-template-areas: 
+                         'head' 
+                         'sec'
+                         'multi'
+                         'foot';
+}
+
+
+ /*Especificidad: 001*/
+header {
+    grid-area: head;
+
+}
+
+
+ /*Especificidad: 001*/
+section {
+    grid-area: sec;
+    text-align: justify;
+}
+
+
+ /*Especificidad: 001*/
+article {
+    grid-area: multi;
+}
+
+
+ /*Especificidad: 001*/
+footer {
+    grid-area: foot;
+}

@@ -1,0 +1,60 @@
+/*Especificidad: 001*/
+body {
+    font-family: "Andale Mono", monospace;
+    color: #818181;
+    background-color: #FFFAF0;
+    }
+  /*Especificidad: 001*/
+  h1 {
+    font-family: "Andale Mono", monospace;
+    font-size: 3em;
+    color: #A0522D;   
+    background-color:#FFFAF0; 
+    text-transform: uppercase;
+    text-align: center;  
+    border-style: solid; 
+    }
+  
+    /*Especificidad: 001*/
+  h2 {
+    font-family: "Andale Mono", monospace;
+    color: #000;    
+    background-color:#FFE4C4; 
+    text-transform: uppercase;
+    text-align: center;     
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+   }
+  
+   /*Especificidad: 001*/
+   h3 {
+    font-family: "Andale Mono", monospace;
+    color: #000;    
+    background-color:#FFEFD5; 
+    text-transform: uppercase;
+    text-align: center;
+  
+   }
+
+   /*Especificidad: 001*/
+   h4 {
+    font-family: "Andale Mono", monospace;
+    color: #000;    
+    background-color:#FFEFD5; 
+    text-transform: uppercase;
+    text-align: center;
+  
+   }
+
+   /*Especificidad: 001*/
+ p {
+    font-family: "Andale Mono", monospace;
+    color: #000;
+    background-color:#FFFAF0; 
+    font-size: 18px;
+    text-align: start;  
+    line-height: 1.5; 
+    margin: 1.5%;
+   }
